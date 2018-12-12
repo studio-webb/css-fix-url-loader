@@ -1,7 +1,15 @@
-# css-fix-url-loader [![NPM version][npm-image]][npm-url] [![npm module downloads][npm-downloads-image]][npm-downloads-url] [![Dependency Status][depstat-image]][depstat-url] [![License: MIT][license-image]][license-url]
+<div align="center">
+  <a href="https://github.com/webpack/webpack">
+    <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
+  </a>
+</div>
+
+[![npm version](https://badge.fury.io/js/css-fix-url-loader.svg)](https://badge.fury.io/js/css-fix-url-loader) [![npm module downloads](https://img.shields.io/npm/dt/css-fix-url-loader.svg)](https://npmjs.org/package/css-fix-url-loader) [![Dependency Status](https://david-dm.org/studio-webb/css-fix-url-loader.svg)](https://david-dm.org/studio-webb/css-fix-url-loader) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# css-fix-url-loader 
 
 Webpack loader to transform URLs to other URLs in CSS.
-Fork from css-url-loader
+Fork from [css-url-loader](https://github.com/keidrun/css-url-loader/)
 
 ## Description
 
@@ -158,6 +166,7 @@ module.exports = {
     new ExtractTextPlugin('bundle.css'),
     ...
   ],
+```
 
 ## Options
 
@@ -166,13 +175,5 @@ module.exports = {
 | from     | original url in url()                                                                   |    Y     |
 | to       | transformed url                                                                         |    Y     |
 | env      | value to control execution timing with `process.env.NODE_ENV`. Default is 'production'. |    N     |
-| relative | if needed trasform urls from absolute to relative                                       |    N     |
+| relative | if need to trasform urls from absolute to relative                                      |    N     |
 
-[npm-url]: https://npmjs.org/package/css-fix-url-loader
-[npm-image]: https://badge.fury.io/js/css-fix-url-loader.svg
-[npm-downloads-url]: https://npmjs.org/package/css-fix-url-loader
-[npm-downloads-image]: https://img.shields.io/npm/dt/css-fix-url-loader.svg
-[depstat-url]: https://david-dm.org/keidrun/css-fix-url-loader
-[depstat-image]: https://david-dm.org/keidrun/css-fix-url-loader.svg
-[license-url]: https://opensource.org/licenses/MIT
-[license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
