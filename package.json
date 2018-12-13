@@ -1,6 +1,6 @@
 {
   "name": "css-fix-url-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack loader to transform URLs to other URLs on CSS.",
   "main": "src/index.js",
   "keywords": [
@@ -17,6 +17,7 @@
     "test": "mocha"
   },
   "author": "Alexander Pervushen",
+  "repository": "https://github.com/studio-webb/css-fix-url-loader.git",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
